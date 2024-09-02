@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+
+        function changeImageSrc(imageId) {
+        var image = document.getElementById(imageId);
+        image.src = "./img/lit-bulb.svg";
+        }
+
+
+    </script>
+</head>
+<body>
+    <h1>Introduction: Binary for Beginners</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h2>Symbolic Representation</h2>
+    <p>Suppose I wanted you to know that my cat is orange. Because you and I are not telepathic, I am unable to transmit the idea of my cat’s being orange directly from my mind to yours. I could show you that my cat is orange by bringing her to you, but my cat is a pro at hide-and-seek, and I do not know where she is at the moment, so what am I to do? That’s where symbolic representation comes in.</p>
+    <div class="filler">image of cat</div>
+    <p>Symbolic representation is the agreement between two or more persons that some sound or image will stand in for something else. For example, the word <em>cat</em> is not an actual cat. It’s just some letters written on your screen, but you and I and all other English-reading individuals have agreed, albeit unknowingly in most cases, that the letters ‘C’, ‘A’, ‘T’, when placed together will mean cat. This is terrific, because it means: If I want to let you know my cat is orange, I can simply write: <em>My cat is orange.</em></p>
+    <p>Now, here's the thing about symbolic representation: Anything can by a symbol which represents something else so long as the individuals using the symbol are in agreement about what it is meant to represent. For instance, during the American Revolutionary War, Paul Revere and his compatriots developed a system to communicate whether the British would advance on a town called Concord by land or by sea: Once one of the compatriots knew for certain how the British would advance, he would light one or two candles in the steeple of North Church. The light from the candles would be seen by his fellow compatriots on the other side of the river, and these compatriots knew that if they saw one candle lit, that meant the British were advancing by land, but if two were lit, the British were advancing by sea. Just as Revere and his cohorts created their own system of symbols to represent the method of British advancement, people have created different systems of symbols to represent numbers.</p>
+
+    <h2>Unary Number System</h2>
+    <p>The simplest system for representing numbers is called <strong>unary</strong>. In unary, only one symbol is used to represent numbers, and the most popular unary symbol is the finger. As toddlers, we all quickly learned that holding up <em>two</em> fingers is a great way to represent our desire for <em>two</em> cookies.</p>
+    <p class="instructions">Click on the hands to raise the fingers.</p>
+
+    <div class="filler">image of twelve cookies and interactive hands</div>
+
+    <p>However, we only have ten fingers, so what are we to do when we want twelve cookies? Well, instead of fingers, we could use something else as our symbol, such as batteries. Why batteries? Why not? The symbol can be anything, so long as we agree on it, right?</p>
+
+    <div class="filler">slider, changing number of batteries, twelve cookies</div>
+
+    <p>This works, but suppose we we wanted thirty-one cookies and a tummy-ache. We would need a lot of batteries, and the person doling out the cookies would probably have to count our batteries to know how many cookies we were wanting. What we need is a better way to represent large numbers. And I think light bulbs are just what we need to do it!</p>
+
+    <h2>The Place-value System</h2>
+    <p>We are going to create a way of representing numbers using light bulbs as our symbols, but before  we go any further, it's important to note that in the unary system, we only had one symbol, which worked for representing numbers of one or higher, but suppose we wanted a way to represent that we have none of something.</p>
+    <p>What we need is a symbol which means none. Fortunately, the light bulb gives us a way of doing just that. Let's agree that when the light bulb is lit that means one of something, but when it is unlit, that means none of something.</p>
+    <p class="instructions">Click the light bulb.</p>
+
+    <div class="filler">slider, changing number of batteries, twelve cookies</div>
+
+    <p>We now have a number system that will represent the numbers zero and one, but suppose we wanted to represent two? Well, we could have two lit bulbs, and to represent three, three lit bulbs, and so on, but then we would just run into the same issue that we did with our batteries. Before long we would be stuck counting lit light bulbs to try and figure out what number they were representing.</p>
+    <p>Instead, we could just add new symbol every time we need to represent a new number. In our case, we'll just have light bulbs that are different colors when lit.</p>
+    <p class="instructions">Click the light bulb.</p>
+    <div class="filler">color-changing light bulb, number of batteries corresponding w/ light bulb</div>
+    <p>The problem with just adding a new symbol for every new number is we have to remember which color corresponds to each number, which may be fine if we only want to represent the numbers zero through twenty, but suppose we wanted to represent the numbers zero through fifty! </p>
+    <p>What a pickle we are in. On the one hand, if we try to represent numbers with one symbol, we have to do an awful lot of counting, but on the other hand, if we try to use a unique symbol for each number, we have to do an awful lot of memorizing.</p>
+    <p>One solution to this conundrum is known as the place-value system. The place-value system uses symbols and the positions of those symbols to represent numbers. To see how this works, let’s go back to our light bulb number system with only two symbols: lit and unlit. Recall that we said a lit light bulb would represent one <em>of something</em>, and an unlit light bulb would represent none <em>of something</em>.  In our place-value system, the <em>somethings</em> we will be representing are groups of batteries. Below, you will see a light bulb with the silhouette of battery above it. This tells us that the light bulb represents one battery when it is lit, and no battery when it is unlit.</p>
+
+    <div class="filler">one light bulb with battery above it</div>
+
+    <p>Below, we have added another light bulb to the left of our first light bulb with the silhouettes of two batteries above it. When this second light bulb is lit, it represents one group of <em>two batteries</em>, and when it is unlit, no group of <em>two batteries</em>. If you are wondering: Why two batteries? Don’t worry; it’ll make more sense shortly.</p>
+    <p class="instructions">Try turning the light bulbs on and off. What is the greatest number of batteries you can represent using both light bulbs?</p>
+
+    <div class="filler">two light bulbs with batteries above them</div>
+
+    <p>By now, you may have noticed the number of batteries above a light bulb is double the number of batteries above the light bulb to the right.</p>
+
+    <div class="filler">three lightbulb combinations with batteries grouped into doublings</div>
+
+    <p>With this in mind, how many batteries do you think will be represented by the fourth light bulb below?</p>
+    <p class="instructions">Click the light bulb to check your answer.</p>
+
+    <div class="filler">four lightbulb combinations with batteries</div>
+
+
+    <div class="diagram">
+        <div class="eights-place lightbulb-place">
+            <div class="paws">
+                <img src="./img/paw.svg" alt="">
+                <img src="./img/paw.svg" alt="">
+            </div>
+            <div class="paws">
+                <img src="./img/paw.svg" alt="">
+                <img src="./img/paw.svg" alt="">
+            </div>
+            <div class="paws">
+                <img src="./img/paw.svg" alt="">
+                <img src="./img/paw.svg" alt="">
+            </div>
+            <div class="paws">
+                <img src="./img/paw.svg" alt="">
+                <img src="./img/paw.svg" alt="">
+            </div>
+            <button onclick="changeImageSrc('eights-place-bulb')"><img id="eights-place-bulb" src="./img/unlit-bulb.svg" alt="An Unlit Bulb"></button>
+        </div>
+        <div class="fours-place lightbulb-place">
+            <div class="paws">
+                <img src="./img/paw.svg" alt="">
+                <img src="./img/paw.svg" alt="">
+            </div>
+            <div class="paws">
+                <img src="./img/paw.svg" alt="">
+                <img src="./img/paw.svg" alt="">
+            </div>
+            <button onclick="changeImageSrc('fours-place-bulb')"><img id="fours-place-bulb" src="./img/unlit-bulb.svg" alt="An Unlit Bulb"></button>
+        </div>
+        <div class="twos-place lightbulb-place">
+            <div class="paws">
+                <img src="./img/paw.svg" alt="">
+                <img src="./img/paw.svg" alt="">
+            </div>
+            <button onclick="changeImageSrc('twos-place-bulb')"><img id="twos-place-bulb" src="./img/unlit-bulb.svg" alt="An Unlit Bulb"></button>
+        </div>
+        <div class="ones-place lightbulb-place">
+            <div class="paws">
+                <img src="./img/paw.svg" alt="">
+            </div>
+            <button onclick="changeImageSrc('ones-place-bulb')"><img id="ones-place-bulb" src="./img/unlit-bulb.svg" alt="An Unlit Bulb"></button>
+        </div>
+        
+
+</body>
+</html>
