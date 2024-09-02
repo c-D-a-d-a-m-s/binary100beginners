@@ -3,15 +3,19 @@
     --content-bg-color: #393e46;
     --highlight-color: #f96d00;
     --text-color: #f2f2f2;
+    --content-margin: 15vw;
 }
 
 * ::before ::after {
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
-    background-color: var(--site-bg-color)
-
+    background-color: var(--site-bg-color);
+    font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    color: var(--text-color);
 }
 
 .content {
