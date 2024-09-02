@@ -1,9 +1,21 @@
 :root {
+    --site-bg-color: #222831;
+    --content-bg-color: #393e46;
+    --highlight-color: #f96d00;
+    --text-color: #f2f2f2;
+}
 
+* ::before ::after {
+    box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(28, 28, 41);
+    background-color: var(--site-bg-color)
+
+}
+
+.content {
+    background-color: var(--content-bg-color);
 }
 
 button.interactive-feature {
